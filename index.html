@@ -3,51 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="utils.css">
-
+    <title>Spotify</title>
+    <link rel="stylesheet" href="Stylespotify.css">
 </head>
 <body>
-    <h1 class="text-center">Welcome to Calculator</h1>
+    <nav>
+        <ul>
+            <li class="brand"><img class="logospo" src="download (2).png" alt="">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
 
-    <div class="container flex flex-col  mx-auto items-center "><!-- tum ek class ko ek se jyada naam bhi de sakte ho-->
-
-
-        <div class="row">
-         <input class="input" type="text">  
-        </div>
+    <div class="container">
         
-        <div class="row">
-            <button class="button">C</button>
-            <button class="button">%</button>
-            <button class="button">M+</button>
-            <button class="button">M-</button>
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="signofthetimes.jfif" alt="">
+                        <span>Sign of the times</span>
+                        <span class="songlistplay"><span>04:11</span><span class="timestamp"><i class="far fa fa-play-circle"></i></span></span>
+                    </div>
+                    
+            </div>
         </div>
-        <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">+</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">-</button>
-        </div>
+        <div class="songBanner"></div>
+
     </div>
-<script src="js.js"></script></body>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgessBar" min="0" value="0" max="100">
+        <div class="icons"> <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-step-backward"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward"></i>
+        </div>
+    
+    <div class="songInfo">
+        <img src="playing.webp" width="42px" id="gif" alt="">Sign of the times - Harry styles
+    </div>
+    </div>
+
+    <script src="scriptspotify.js"></script>
+</body>
+
+<script src="https://kit.fontawesome.com/936d1d6621.js" crossorigin="anonymous"></script>
 </html>
